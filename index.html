@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Сайт-визитка</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style/animate.min.css">
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header__head header__head_hidden animated">
+			<h1 class="header__h1">Никита Самончик</h1>
+			<p class="header__desc">Сайт-визитка
+		</div>
+		<a href="#resume" class="header__arrow"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+	</header>
+	<section id="resume" class="resume">
+		<h2 class="resume__h2">Обо мне</h2>
+		<div class="resume__photo"><img src="image/profile.jpg" alt="Никита самончик"></div>
+		<div class="resume__about">
+			<h3 class="resume__h3">Никита Самончик</h3>
+			<p class="resume__desc">19 лет, Речица, Беларусь</p>
+			<p class="resume__desc">
+				Студент 2-го курса без комереческого опыта работы. Версткой я занимаюсь около полугода. Из основных качеств могу отметить ответственность и трудолюбие.
+			</p>
+			<p class="resume__desc">
+				Хочу работать в творческой, интересной и знающей свое дело команде, которая пополнит копилку имеющихся навыков и поможет стать настоящим профессионалом своего дела.
+			</p>
+			<h3 class="resume__h3">Образование:</h3>
+			<p class="resume__date">2015 — 2019</p>
+			<p class="resume__desc">БГУИР, Факультет Компьютерного Проектирования, 2 курс<br><strong>Информационные системы и технологии в бизнес-менеджменте.</strong></p>
+		</div>
+	</section>
+	<section id="skills" class="skills">
+		<h2 class="skills__h2">Что я знаю и умею?</h2>
+		<div class="skills-card header__head_hidden animated delay-5">
+			<i class="skills__ico fa fa-html5" aria-hidden="true"></i>
+			<h3 class="skills__name">HTML</h3>
+			<p class="skills__desc">Семантическая, аккуратная, верстка.</p>
+		</div>
+		<div class="skills-card header__head_hidden animated delay-1">
+			<i class="skills__ico fa fa-css3" aria-hidden="true"></i>
+			<h3 class="skills__name">CSS</h3>
+			<p class="skills__desc">Анимации, трансформации, и другие возможности.</p>
+		</div>
+		<div class="skills-card header__head_hidden animated delay-15">
+			<i class="skills__ico fa fa-code" aria-hidden="true"></i>
+			<h3 class="skills__name">JavaScript</h3>
+			<p class="skills__desc">Достаточно, чтобы писать свои скрипты. В основном в виде jQuery.</p>
+		</div>
+		<div class="skills-card header__head_hidden animated delay-2">
+			<i class="skills__ico fa fa-chrome" aria-hidden="true"></i>
+			<h3 class="skills__name">Кроссбраузерность</h3>
+			<p class="skills__desc">Доведение сайта до идеала во всех основных браузерах.</p>
+		</div>
+		<div class="skills-card header__head_hidden animated delay-25">
+			<i class="skills__ico fa fa-mobile" aria-hidden="true"></i>
+			<h3 class="skills__name">Адаптивность</h3>
+			<p class="skills__desc">Отличное отображение на любых устройствах</p>
+		</div>
+	</section>
+<footer class="footer">
+	<div class="footer__profile">
+		<h4 class="footer__h4">Никита Самончик</h4>
+		<p class="footer__desc">HTML верстка и разработка сайтов</p>
+	</div>
+	<div class="footer__social-list">
+		<p class="footer__text">Мои контакты:</p>
+		<a href="https://vk.com/id142948197" target="_blank" class="footer__link"><i class="social-ico fa fa-vk" aria-hidden="true"></i></a>
+		<a href="skype:saymon5672" class="footer__link"><i class="social-ico fa fa-skype" aria-hidden="true"></i></a>
+		<a href="mailto:cmon2011@mail.ru" class="footer__link"><i class="social-ico fa fa-envelope" aria-hidden="true"></i></a>
+	</div>
+		<a href="https://vk.com/im?media=&sel=142948197" target="_blank" class="footer__feedback">Связать со мной ВКонтакте</a>
+</footer>
+	<!--Live Reload Plugin-->
+	<script>
+		document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+	</script>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+/*font-family: 'PT Sans Caption', sans-serif;
+font-family: 'Merriweather', serif;*/
+
+html, body {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+}
+h1, p {
+	padding: 0;
+	margin: 0;
+}
+.animated {
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s; 
+}
+.header__head_hidden {
+	visibility: hidden;
+}
+.header {
+	background: url(../image/bg-header.jpg) center no-repeat;
+	background-size: cover;
+	height: 100vh;
+	text-align: center;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+.header__h1 {
+	font-size: 56px;
+	font-family: 'Merriweather',  serif;
+	margin-top: -70px;
+}
+.header__desc {
+	font-size: 26px;
+	line-height: 42px;
+}
+.header__arrow {
+	display: block;
+	width: 60px;
+	height: 50px;
+	color: #fff;
+	font-size: 48px;
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -30px;
+}
+.header__arrow:hover {
+	color: #F6C90E;
+}
+.resume, .skills{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 50px 0;
+}
+.resume__h2, .skills__h2 {
+	font-family: 'Merriweather',  serif;
+	font-size: 46px;
+	text-align: center;
+	flex-basis: 100%;
+	margin: 0 0 50px 0;
+	color: #0052c2;
+}
+.resume__photo {
+	flex-basis: 500px;
+	text-align: center;
+}
+.resume__photo img {
+	max-width: 80%;
+	height: auto;
+}
+.resume__about {
+	flex-basis: 700px;
+}
+.resume__h3 {
+	margin: 0;
+	font-size: 21px;
+}
+.resume__desc {
+	margin-bottom: 10px;
+}
+.resume__date {
+	font-size: 21px;
+	font-weight: bold;
+	color: #0052c2;
+	margin: 10px 0;
+}
+.skills {
+	flex-basis: 100%;
+	background-color: #f5f5f5;
+}
+.skills__h2 {
+	font-size: 36px;
+	text-align: center;
+	color: #000;
+}
+.skills-card {
+	flex-basis: 200px;
+	text-align: center;
+	background-color: #fff;
+	border-bottom: 1px solid #d4d4d4;
+	padding: 40px 20px;
+	border-radius: 3px;
+	animation-duration: .8s;
+}
+.skills-card:hover {
+	box-shadow: 0px 2px 4px rgba(0,0,0,.15);
+}
+.skills-card:hover .skills__ico {
+	color: #0052c2;
+}
+.skills__ico {
+	font-size: 40px;
+}
+.skills__name {
+	font-family: 'Merriweather',  serif;
+	font-size: 16px;
+}
+.skills__desc {
+	font-size: 14px;
+}
+.footer {
+	background-color: #061634;
+	display: flex;
+	color: #fff;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 80px 0 150px 0;
+}
+.footer__h4 {
+	margin: 0;
+	font-size: 28px;
+	color: #6479a2;
+	font-family: 'Merriweather',  serif;
+}
+.footer__desc {
+	color: #6479a2;
+}
+.footer__text {
+	font-size: 18px;
+}
+.footer__link {
+	display: inline-block;
+	margin-right: 25px;
+	margin-top: 15px;
+}
+.social-ico  {
+	font-size: 30px;
+}
+.footer__link {
+	color: #fff;
+}
+.footer__link:hover {
+	color: #F6C90E;
+}
+.footer__feedback {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	width: 250px;
+	padding: 0 15px;
+	line-height: 40px;
+	border-radius: 21px;
+	border: 2px solid #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.footer__feedback:hover {
+	background-color: #F6C90E;
+	border: 2px solid #F6C90E;
+}
+.delay-05 {
+	animation-delay: .5s;
+}
+.delay-1 {
+	animation-delay: 1s;
+}
+.delay-15 {
+	animation-delay: 1.5s;
+}
+.delay-2 {
+	animation-delay: 2s;
+}
+.delay-25 {
+	animation-delay: 2.5s;
+}
